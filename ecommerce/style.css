@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+marquee{
+    margin: auto;
+    color: blue;
+    background-color: purple;
+}
+/* .maincard{
+    width:20vw;
+    height: 100%;
+    border:2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.imag{
+    width:10px; 
+} */
+
+
+.maincard {
+    background-color: white;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin-top: 50px ; /* Center the card */
+    height: 600px;
+    margin: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+   
+    
+    
+}
+
+.maincard:hover {
+    background-color: white;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 401px;
+    margin-top: 50px ; /* Center the card */
+    height: 601px;
+    margin: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s ease;
+    padding:2px;
+   
+    
+    
+}
+
+
+
+.mainimg{
+   width: 400px;
+   border-radius: 20px;
+   border-bottom-left-radius:0px;
+   border-bottom-right-radius:0px;
+}
+
+
+.minibtn{
+    border-radius: 20px;
+    background-color: rgb(76, 74, 169);
+    /* padding-left: 3px;
+    padding-right: 1px; */
+    margin-top:50px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px; 
+    /* padding-left:2px; */
+    /* padding-top:3px;
+    padding-right:3px; */
+    /* padding-right: 20px; */
+    width: 80px;
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+.title{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.title2{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.secimg{
+    /* background-image: url('https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg'); */
+    clip-path: circle(39.9% at 50% 50%);
+    width:80px;
+    /* margin-left:20px; */
+    margin-top: 40px;
+     
+}
+
+/* agr image ke barabar text na y toh */
+.dosra{
+    display: flex ;
+    align-items: center; 
+    
+   
+}
+
+
+
+b{
+    margin-top: 40px;
+}
+
+
+
+
+
